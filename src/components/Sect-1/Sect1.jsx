@@ -2,12 +2,13 @@ import React from 'react';
 import Slider from "react-slick";
 import { sliderdb } from '../../sliderdb';
 import { useNavigate } from 'react-router-dom';
+import "../Sect-1/Sect1.css"
 
 const Sect1 = () => {
   const navigate = useNavigate()
   let settings = {
-    dots: true,
-    infinite: true,
+    dots: false,
+    infinite: false,
     speed: 500,
     arrows:true,
     slidesToShow: 4,
@@ -15,16 +16,16 @@ const Sect1 = () => {
     initialSlide: 0,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1216,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
-          dots: true
+          dots: false
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 850,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
@@ -32,10 +33,13 @@ const Sect1 = () => {
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 600,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
+          slidesToScroll: 1,
+          initialSlide: 2,
+          arrows:false,
+          dots:true
         }
       }
     ]
@@ -52,7 +56,6 @@ const Sect1 = () => {
                   <img src={el?.img} alt="" />
                   <h4>{el?.title}</h4>
                   <p className="slider1__desc">{el?.desc}</p>
-                  <p className="slider1__narx">{el?.narx} so'm</p>
                 </div>
               );
             })}
@@ -67,4 +70,3 @@ const Sect1 = () => {
 }
 
 export default Sect1;
-//dfd
