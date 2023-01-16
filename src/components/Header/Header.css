@@ -1,0 +1,16 @@
+.carousel {
+    height: 85.2vh;
+  }
+  .carousel-item img {
+    object-fit:cover;
+    height: 85.2vh;
+    width: 100%;
+  }
+  .carousel-control-next-icon{
+    background: #d52b27 ;
+    color: #fff ;
+  }
+  .carousel-control-prev-icon{
+  background: #d52b27 ;
+    color: #fff ;
+  }

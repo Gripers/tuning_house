@@ -1,0 +1,60 @@
+nav {
+  width: 100%;
+  height: 140px;
+  background: #000;
+}
+
+.nav__container {
+  width: 1180px;
+  margin: 0 auto;
+
+}
+
+.navbar {
+  height: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar li{
+  list-style: none;
+}
+
+.navbar li a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+.navbar li a:hover {
+  color: red;
+  transition: 0.2s ease;
+}
+
+.navbar li img {
+  width: 120px;
+  object-fit: cover;
+}
+
+.navbar li select {
+  width: 80px;
+  height: 30px;
+
+  text-align: center;
+  background: transparent;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+.navbar li option {
+  width: 80px;
+  height: 40px;
+
+  background: #fff;
+  color: #000;
+  border: none;
+}
+

@@ -1,0 +1,34 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 0;
+}
+.footer-text{
+    text-align: center;
+}
+.footer-text img{
+    width: 120px;
+    object-fit: cover;
+    padding-bottom: 15px;
+}
+iframe{
+    width: 100%;
+    height: 30vh;
+}
+.container__footer{
+    width: 90%;
+    margin: 0 auto;
+}
+@media only screen and (max-width:950px) {
+    .footer{
+        display: block;
+    }
+    iframe{
+        height: 50vh;
+    }
+    .container__footer{
+        width: 100%;
+        padding: 0 20px;
+    }
+}

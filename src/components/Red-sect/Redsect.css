@@ -1,0 +1,26 @@
+.bg-red{
+    padding: 30px 0;
+    background: #cb2517;
+    color: #fff;
+  }
+.red-sect{
+    display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-column-gap: 50px;
+grid-row-gap: 0px;
+}
+.cardd{
+    width: 100%;
+    text-align: center;
+}
+.cardd svg{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.h{
+    text-align: center;
+    padding-bottom: 30px;
+}
