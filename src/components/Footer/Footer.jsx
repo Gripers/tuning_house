@@ -10,7 +10,7 @@ const Footer = () => {
     <img src={img} alt="" />
     <h6>Bizning joylashuvimiz:</h6>
     <p>
-        Toshkent shahri, Farxod bozori avtoturargohi yonida "Auto Tuning Centre" servisi
+        Toshkent shahri, Farxod bozori avtoturargohi <br /> yonida "Auto Tuning Centre" servisi
 <br />
 <br />
 Toshkent shahri, Sergili mashina bozori

@@ -4,6 +4,7 @@ import Nav from '../components/Nav/Nav';
 import Redsect from "../components/Red-sect/Redsect"
 import Footer from "../components/Footer/Footer"
 import Sect1 from '../components/Sect-1/Sect1';
+import Sect2 from '../components/Sect-2/Sect2';
 
 function Home() {
        return (
@@ -11,6 +12,7 @@ function Home() {
               <Nav/>
               <Header/>
               <Sect1/>
+              <Sect2/>
               <Redsect/>
               <Footer/>
               </>

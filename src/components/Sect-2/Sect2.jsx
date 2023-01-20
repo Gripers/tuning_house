@@ -1,11 +1,9 @@
 import React from "react";
+import "../Sect-2/Sect2.css";
 import Slider from "react-slick";
-import { sliderdb } from "../../sliderdb";
-import { useNavigate } from "react-router-dom";
-import "../Sect-1/Sect1.css";
+import { turkumlar } from "../../turkumlar";
 
-const Sect1 = () => {
-  const navigate = useNavigate();
+const Sect2 = () => {
   let settings = {
     dots: false,
     infinite: false,
@@ -50,27 +48,26 @@ const Sect1 = () => {
   };
   return (
     <>
-      <div className="container">
-        <h1 className="slider__title">Yangi mahsulotlar</h1>
-        <div className="slider__parent">
-          <Slider {...settings}>
-            {sliderdb?.map((el) => {
-              return (
-                <div className="slider1" key={el?.id}>
-                  <img src={el?.img} alt="" />
-                  <h4>{el?.title}</h4>
-                  <p className="slider1__desc">{el?.desc}</p>
-                </div>
-              );
-            })}
-          </Slider>
-        </div>
-        <div className="more">
-          <button onClick={() => navigate("/")}>Ko'proq</button>
+      <div className="sect2__black">
+        <div className="container">
+          <h1 className="slider__title">Turkumlar</h1>
+          <div className="slider__parent">
+            <Slider {...settings}>
+              {turkumlar?.map((el) => {
+                return (
+                  <div className="slider1" key={el?.id}>
+                    <img src={el?.img} alt="" />
+                    <h4>{el?.title}</h4>
+                    <p className="slider1__desc">{el?.desc}</p>
+                  </div>
+                );
+              })}
+            </Slider>
+          </div>
         </div>
       </div>
     </>
   );
 };
 
-export default Sect1;
+export default Sect2;
