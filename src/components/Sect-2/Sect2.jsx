@@ -58,7 +58,6 @@ const Sect2 = () => {
                   <div className="slider1" key={el?.id}>
                     <img src={el?.img} alt="" />
                     <h4>{el?.title}</h4>
-                    <p className="slider1__desc">{el?.desc}</p>
                   </div>
                 );
               })}

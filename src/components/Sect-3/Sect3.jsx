@@ -1,11 +1,9 @@
 import React from "react";
+import "../Sect-3/Sect3.css";
 import Slider from "react-slick";
-import { sliderdb } from "../../sliderdb";
-import { useNavigate } from "react-router-dom";
-import "../Sect-1/Sect1.css";
+import { ommabop } from "../../ommabop";
 
-const Sect1 = () => {
-  const navigate = useNavigate();
+const Sect3 = () => {
   let settings = {
     dots: false,
     infinite: false,
@@ -50,27 +48,26 @@ const Sect1 = () => {
   };
   return (
     <>
-      <div className="container">
-        <h1 className="slider__title">Yangi mahsulotlar</h1>
-        <div className="slider__parent">
-          <Slider {...settings}>
-            {sliderdb?.map((el) => {
-              return (
-                <div className="slider1" key={el?.id}>
-                  <img src={el?.img} alt="" />
-                  <h4>{el?.title}</h4>
-                  <p className="slider1__desc">{el?.desc.slice(0, 140)}{"..."}</p>
-                </div>
-              );
-            })}
-          </Slider>
-        </div>
-        <div className="more">
-          <button onClick={() => navigate("/")}>Ko'proq</button>
+      <div className="ommabop">
+        <div className="container">
+          <h1 className="slider__title">Ommabop</h1>
+          <div className="slider__parent">
+            <Slider {...settings}>
+              {ommabop?.map((el) => {
+                return (
+                  <div className="slider1" key={el?.id}>
+                    <img src={el?.img} alt="" />
+                    <h4>{el?.title}</h4>
+                    <p className="slider1__desc">{el?.desc.slice(0, 140)}{"..."}</p>
+                  </div>
+                );
+              })}
+            </Slider>
+          </div>
         </div>
       </div>
     </>
   );
 };
 
-export default Sect1;
+export default Sect3;

@@ -2,28 +2,28 @@ export const sliderdb = [
        {
               id:1,
               img:"https://auto-tuning.uz/uploads/mini_gallery/df8246cc-d016-08e5-7d6e-1e7913367b35_mini.jpg",
-              title:"Nomer ramka 001",
+              title:"Nomer ramka 001 TEST TEST",
               desc:"Nomer uchun ramka",
               narx:"30 000 so'm"
        },
        {
               id:2,
               img:"https://auto-tuning.uz/uploads/mini_gallery/df8246cc-d016-08e5-7d6e-1e7913367b35_mini.jpg",
-              title:"Nomer ramka 002",
+              title:"Nomer ramka 002 TEST TEST",
               desc:"Nomer uchun ramka",
               narx:"30 000 so'm"
        },
        {
               id:3,
               img:"https://auto-tuning.uz/uploads/mini_gallery/3a18eceb-7c3a-852c-c7c2-7260bdf5910d_mini.jpg",
-              title:"Nomer uchun jilt DEM",
+              title:"Nomer uchun jilt DEM TEST",
               desc:"Nomer uchun (plastmassali)",
               narx:"60 000 so'm"
        },
        {
               id:4,
               img:"https://auto-tuning.uz/uploads/mini_gallery/df8246cc-d016-08e5-7d6e-1e7913367b35_mini.jpg",
-              title:"Nomer ramka 003",
+              title:"Nomer ramka 003 TEST TEST",
               desc:"Nomer uchun ramka",
               narx:"30 000 so'm"
        },
@@ -37,7 +37,7 @@ export const sliderdb = [
        {
               id:6,
               img:"https://auto-tuning.uz/uploads/mini_gallery/df8246cc-d016-08e5-7d6e-1e7913367b35_mini.jpg",
-              title:"Nomer ramka 005",
+              title:"Nomer ramka 005 TEST TEST",
               desc:"Nomer uchun ramka",
               narx:"30 000 so'm"
        },
@@ -51,7 +51,7 @@ export const sliderdb = [
        {
               id:8,
               img:"https://auto-tuning.uz/uploads/mini_gallery/df8246cc-d016-08e5-7d6e-1e7913367b35_mini.jpg",
-              title:"Nomer ramka 007",
+              title:"Nomer ramka 007 TEST TEST",
               desc:"Nomer uchun ramka",
               narx:"30 000 so'm"
        },

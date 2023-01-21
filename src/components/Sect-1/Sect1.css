@@ -4,6 +4,7 @@
 
 .slider__parent{
        font-family: 'Roboto' sans-serif;
+       
 }
 
 .slider__title{
@@ -20,7 +21,7 @@
 .slider1 img{
        width: 100%;
        object-fit: fill;
-       height: 270px;
+       height: 300px;
 }
 
 .more{
@@ -43,6 +44,7 @@
 .slider1 h4{
        padding: 10px 0;
        font-weight: 700;
+       min-height: 78px;
 }
 
 .more button:hover{
